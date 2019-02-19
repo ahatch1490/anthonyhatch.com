@@ -3,6 +3,7 @@
     <Hero/>
     <Footer/>
   </div>
+
 </template>
 
 <script lang="ts">
@@ -12,7 +13,7 @@ import Footer from "@/components/Footer.vue"; // @ is an alias to /src
 @Component({
   components: {
     Hero,
-    Footer,
+    Footer
   },
 })
 export default class Home extends Vue {}

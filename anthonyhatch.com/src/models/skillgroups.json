@@ -1,0 +1,58 @@
+{
+  "skillGroups": [
+{
+  "title": "Languages",
+  "images": [
+    {
+      "url": "/knowledges/vb.svg"
+    },
+    {
+      "url": "/knowledges/csharp.svg"
+    },
+    {
+      "url": "/knowledges/ruby.svg"
+    },
+    {
+      "url": "/knowledges/python.svg"
+    },
+    {
+      "url": "/knowledges/coffeescript.svg"
+    },
+    {
+      "url": "/knowledges/javascript.svg"
+    },
+    {
+      "url": "/knowledges/typescript.svg"
+    }
+
+  ]
+},
+    {
+      "title": "Frameworks",
+      "images": [
+        {
+          "url": "/knowledges/vb.svg"
+        },
+        {
+          "url": "/knowledges/csharp.svg"
+        },
+        {
+          "url": "/knowledges/ruby.svg"
+        },
+        {
+          "url": "/knowledges/python.svg"
+        },
+        {
+          "url": "/knowledges/coffeescript.svg"
+        },
+        {
+          "url": "/knowledges/javascript.svg"
+        },
+        {
+          "url": "/knowledges/typescript.svg"
+        }
+
+      ]
+    }
+]
+}
