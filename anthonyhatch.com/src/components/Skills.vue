@@ -1,6 +1,6 @@
 <template>
-    <div class="card">
-        <div class="card-header ">
+    <div class="card card-padding">
+        <div class="card-header">
             <h3 class="alignleft"> {{ skill.title }}</h3>
         </div>
         <div class="card-body">
@@ -29,5 +29,8 @@
     {
         max-height: 60px;
 
+    }
+    .card-padding {
+        margin: 5px;
     }
 </style>
