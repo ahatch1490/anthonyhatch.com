@@ -6,8 +6,8 @@
         <div class="card-body">
 
             <div class="row">
-                <div class="col-2"  v-for="img in skill.images" >
-                    <img class="max_logo_height responsive-img" :src="img.url" :alt="img.title"  />
+                <div class="col-2" v-for="img in skill.images" >
+                    <img class="max_logo_height img-fluid" :src="img.url" :alt="img.title" v-b-tooltip.hover :title="img.title"/>
                 </div>
             </div>
         </div>

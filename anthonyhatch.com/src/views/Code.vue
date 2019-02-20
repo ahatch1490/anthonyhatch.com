@@ -57,7 +57,7 @@
                    title: "Frameworks",
                    images: [
                       {
-                         title: 'netcore',
+                         title: '.netcore',
                          url: "/frameworks/netcore.svg"
                       },
                       {
@@ -69,15 +69,15 @@
                          url: "/frameworks/angular.svg"
                       },
                       {
-                         title: 'typescript',
+                         title: 'backbonejs',
                          url: "/frameworks/backbone-icon.svg"
                       },
                       {
-                         title: 'backbone',
+                         title: 'ruby on rails',
                          url: "/frameworks/ror.svg"
                       },
                       {
-                         title: 'Vue',
+                         title: 'vue',
                          url: "/frameworks/Vue.js_Logo.svg"
                       }
 
@@ -107,7 +107,7 @@
                          url: "/layout/materialize.svg"
                       },
                       {
-                         title: 'Bootstrap',
+                         title: 'bootstrap',
                          url: "/layout/Bootstrap.svg"
                       }
 
@@ -117,11 +117,11 @@
                    title: "Data",
                    images: [
                       {
-                         title: 'MSSQL',
+                         title: 'ms-sql',
                          url: "/data/mssql.svg"
                       },
                       {
-                         title: 'Postgres',
+                         title: 'postgres',
                          url: "/data/postgressql.svg"
                       }
                    ]
@@ -130,30 +130,51 @@
                    title: "Tools",
                    images: [
                       {
-                         title: 'Visual Studio',
+                         title: 'visual studio',
                          url: "/tools/vs.svg"
                       },
                       {
-                         title: 'Vim',
+                         title: 'vim',
                          url: "/tools/vim.svg"
                       },
                       {
-                         title: 'Rider',
+                         title: 'rider',
                          url: "/tools/rider.svg"
                       },
                       {
-                         title: 'Rubymine',
+                         title: 'rubymine',
                          url: "/tools/rubymine.svg"
                       },
                       {
-                         title: 'DataGrip',
+                         title: 'datagrip',
                          url: "/tools/datagrip.svg"
                       },
                       {
-                         title: 'WebStorm',
+                         title: 'webstorm',
                          url: "/tools/webstorm.svg"
                       }
 
+                   ]
+                },
+                {
+                   title: "Interests",
+                   images: [
+                      {
+                         title: 'kotlin',
+                         url: "/interests/kotlin.svg"
+                      },
+                      {
+                         title: 'spring-boot',
+                         url: "/interests/spring-boot.svg"
+                      },
+                      {
+                         title: 'martin',
+                         url: "/interests/marten.png"
+                      },
+                      {
+                         title: 'flutter',
+                         url: "/interests/flutter.svg"
+                      }
                    ]
                 },
 
