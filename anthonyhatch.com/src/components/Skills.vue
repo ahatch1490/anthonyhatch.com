@@ -1,7 +1,7 @@
 <template>
     <div class="card card-padding">
         <div class="card-header">
-            <h3 class="alignleft"> {{ skill.title }}</h3>
+            <h5 class="alignleft"> {{ skill.title }}</h5>
         </div>
         <div class="card-body">
 
