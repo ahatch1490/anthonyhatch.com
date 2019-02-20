@@ -27,25 +27,28 @@
                    title: "Languages",
                    images: [
                       {
-                         url: "/skills/vb.svg"
+                         title:'c#',
+                         url: "skills/csharp.svg"
                       },
                       {
-                         url: "/skills/csharp.svg"
+                         title:'ruby',
+                         url: "skills/ruby.png"
                       },
                       {
-                         url: "/skills/ruby.svg"
+                         title: "visual basic",
+                         url: "skills/vb.svg"
                       },
                       {
-                         url: "/skills/python.svg"
+                         title:'coffeescript',
+                         url: "skills/coffeescript.svg"
                       },
                       {
-                         url: "/skills/coffeescript .svg"
+                         title: 'javascript',
+                         url: "skills/javascript.svg"
                       },
                       {
-                         url: "/skills/javascript.svg"
-                      },
-                      {
-                         url: "/skills/typescript.svg"
+                         title: 'typescript',
+                         url: "skills/typescript.svg"
                       }
 
                    ]

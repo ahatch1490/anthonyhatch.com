@@ -7,7 +7,7 @@
 
             <div class="row">
                 <div class="col-2"  v-for="img in skill.images" >
-                    <img class="max_logo_height responsive-img" :src="publicPath + img.url" alt="C#"  />
+                    <img class="max_logo_height responsive-img" :src="img.url" alt="C#"  />
                 </div>
             </div>
         </div>
@@ -18,18 +18,16 @@
 
     export default {
         name: "Skills",
-        props:['skill'],
-        publicPath: process.env.BASE_URL,
-        methods: {
-             GetImageUrl(url: string) {
-                return  require(url);
-            }
-        }
+        props:['skill']
 
     }
 
 </script>
 
 <style scoped>
+    .max_logo_height
+    {
+        max-height: 60px;
 
+    }
 </style>
