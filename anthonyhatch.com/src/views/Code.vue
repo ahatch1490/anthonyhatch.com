@@ -28,27 +28,27 @@
                    images: [
                       {
                          title:'c#',
-                         url: "skills/csharp.svg"
+                         url: "languages/csharp.svg"
                       },
                       {
                          title:'ruby',
-                         url: "skills/ruby.png"
+                         url: "languages/ruby.png"
                       },
                       {
                          title: "visual basic",
-                         url: "skills/vb.svg"
+                         url: "languages/vb.svg"
                       },
                       {
                          title:'coffeescript',
-                         url: "skills/coffeescript.svg"
+                         url: "languages/coffeescript.svg"
                       },
                       {
                          title: 'javascript',
-                         url: "skills/javascript.svg"
+                         url: "languages/javascript.svg"
                       },
                       {
                          title: 'typescript',
-                         url: "skills/typescript.svg"
+                         url: "languages/typescript.svg"
                       }
 
                    ]
@@ -57,29 +57,76 @@
                    title: "Frameworks",
                    images: [
                       {
-                         url: "/skills/vb.svg"
+                         title: 'netcore',
+                         url: "/frameworks/netcore.svg"
                       },
                       {
-                         url: "/skills/csharp.svg"
+                         title: '.net',
+                         url: "/frameworks/net.svg"
                       },
                       {
-                         url: "/skills/ruby.svg"
+                         title: 'angular',
+                         url: "/frameworks/angular.svg"
                       },
                       {
-                         url: "/skills/python.svg"
+                         title: 'typescript',
+                         url: "/frameworks/backbone-icon.svg"
                       },
                       {
-                         url: "/skills/coffeescript.svg"
+                         title: 'backbone',
+                         url: "/frameworks/ror.svg"
                       },
                       {
-                         url: "/skills/javascript.svg"
-                      },
-                      {
-                         url: "/skills/typescript.svg"
+                         title: 'Vue',
+                         url: "/frameworks/Vue.js_Logo.svg"
                       }
 
                    ]
-                }
+                },
+                {
+                   title: "Layout",
+                   images: [
+                      {
+                         title: 'html5',
+                         url: "/layout/html5.svg"
+                      },
+                      {
+                         title: 'css',
+                         url: "/layout/css3.svg"
+                      },
+                      {
+                         title: 'sass',
+                         url: "/layout/sass.svg"
+                      },
+                      {
+                         title: 'haml',
+                         url: "/layout/haml.svg"
+                      },
+                      {
+                         title: 'materialize-css',
+                         url: "/layout/materialize.svg"
+                      },
+                      {
+                         title: 'Bootstrap',
+                         url: "/layout/Bootstrap.svg"
+                      }
+
+                   ]
+                },
+                {
+                   title: "Data",
+                   images: [
+                      {
+                         title: 'MSSQL',
+                         url: "/data/mssql.svg"
+                      },
+                      {
+                         title: 'Postgres',
+                         url: "/data/postgressql.svg"
+                      }
+                   ]
+                },
+
              ]
           }
 
