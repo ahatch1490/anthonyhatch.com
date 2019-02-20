@@ -126,6 +126,36 @@
                       }
                    ]
                 },
+                {
+                   title: "Tools",
+                   images: [
+                      {
+                         title: 'Visual Studio',
+                         url: "/tools/vs.svg"
+                      },
+                      {
+                         title: 'Vim',
+                         url: "/tools/Vim.svg"
+                      },
+                      {
+                         title: 'Rider',
+                         url: "/tools/rider.svg"
+                      },
+                      {
+                         title: 'Rubymine',
+                         url: "/tools/rubymine.svg"
+                      },
+                      {
+                         title: 'DataGrip',
+                         url: "/tools/datagrip.svg"
+                      },
+                      {
+                         title: 'WebStorm',
+                         url: "/tools/webstorm.svg"
+                      }
+
+                   ]
+                },
 
              ]
           }
