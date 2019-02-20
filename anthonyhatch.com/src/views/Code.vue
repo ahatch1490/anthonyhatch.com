@@ -135,7 +135,7 @@
                       },
                       {
                          title: 'Vim',
-                         url: "/tools/Vim.svg"
+                         url: "/tools/vim.svg"
                       },
                       {
                          title: 'Rider',
