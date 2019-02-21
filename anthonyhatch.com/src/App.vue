@@ -1,21 +1,18 @@
 <template>
   <div id="app">
     <div class="container">
-      <b-navbar  toggleable="lg" type="light" variant="light" sticky="true">
-          <b-navbar-brand href="#">NavBar</b-navbar-brand>
-        <b-navbar-toggle target="nav_collapse" />
-        <b-collapse is-nav id="nav_collapse">
-          <!-- As a link -->
-          <b-navbar variant="faded" type="light">
-            <b-nav-item> <router-link to="/" class="nav-link">Home</router-link></b-nav-item>
-          </b-navbar>
-          <b-navbar variant="faded" type="light">
-            <b-nav-item>   <router-link to="/the_codes" class="nav-link">The Codes</router-link></b-nav-item>
-          </b-navbar>
-          <b-navbar variant="faded" type="light">
-            <b-nav-item> <router-link to="/about"  class="nav-link">About</router-link></b-nav-item>
-          </b-navbar>
-      </b-collapse>
+      <b-navbar  toggleable="lg" type="light" variant="light" :sticky="true" >
+        <b-navbar-toggle target="nav_text_collapse" />
+
+          <b-collapse is-nav id="nav_text_collapse">
+            <b-navbar-nav>
+            <b-nav-item to="/" >Home</b-nav-item>
+            <b-nav-item to="/the_codes">Skills</b-nav-item>
+            <b-nav-item to="/about">About</b-nav-item>
+              </b-navbar-nav>
+
+            </b-collapse>
+
       </b-navbar>
       <div class="container">
       <div class="row">

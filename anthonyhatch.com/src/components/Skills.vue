@@ -19,7 +19,6 @@
     export default {
         name: "Skills",
         props:['skill']
-
     }
 
 </script>
@@ -31,6 +30,6 @@
 
     }
     .card-padding {
-        margin: 5px;
+        margin: 15px 0px;
     }
 </style>
