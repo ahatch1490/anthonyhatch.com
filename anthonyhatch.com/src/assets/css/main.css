@@ -1,0 +1,21 @@
+body {
+    background-image: url('/017-Subtle-light-patterns-Vol04.png');
+}
+h3, h1, h6, p{
+    color: #042A2B;
+}
+
+h5 {
+    color:white;
+}
+
+a, .btn-link {
+  color:#042A2B;
+}
+
+.card-header {
+    background-color: #449DD1;
+}
+.jumbotron, hero{
+    background-color: transparent;
+}
