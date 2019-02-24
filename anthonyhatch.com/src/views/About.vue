@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Experience</h1>
+    <h1 class="title-main">Experience</h1>
     <div class="row">
       <div class="col-12">
         <div class="card card_margin">
@@ -53,7 +53,9 @@
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </div>
+
 </template>
 
 <style scoped>
@@ -62,3 +64,9 @@ h3 {
 }
 
 </style>
+<script>
+  import Footer from "../components/Footer";
+  export default {
+    components: {Footer}
+  }
+</script>

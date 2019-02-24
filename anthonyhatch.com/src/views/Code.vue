@@ -1,6 +1,6 @@
 <template>
    <div>
-      <h1>The Codes</h1>
+      <h1 class="title-main">The Codes</h1>
       <div class="row">
          <div class="col-sm-12 ">
             <Skills
@@ -10,14 +10,17 @@
             ></Skills>
          </div>
       </div>
+      <Footer></Footer>
    </div>
 </template>
 
 <script lang="ts">
+   import Footer from "@/components/Footer.vue"
    import Skills from "@/components/Skills.vue"; // @ is an alias to /src
    import { Component, Vue } from 'vue-property-decorator';
     @Component({
        components: {
+          Footer,
           Skills
        },
        data: () => {
