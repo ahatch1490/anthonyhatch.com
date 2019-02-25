@@ -5,6 +5,20 @@
       <div class="col-12">
         <div class="card card_margin">
           <div class="card-header fa-pull-left" style="background-color: white;" >
+            <h3>Full Stack Engineer</h3>
+          </div>
+          <div class="card-body">
+            <p>
+              15 plus years of finding solutions, and deleting code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card card_margin">
+          <div class="card-header fa-pull-left" style="background-color: white;" >
             <h3>Moxi Works</h3>
           </div>
           <div class="card-body">

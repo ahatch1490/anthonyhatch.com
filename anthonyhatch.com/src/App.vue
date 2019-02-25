@@ -6,9 +6,9 @@
 
           <b-collapse is-nav id="nav_text_collapse">
             <b-navbar-nav>
-            <b-nav-item to="/" >Home</b-nav-item>
-            <b-nav-item to="/the_codes">Skills</b-nav-item>
-            <b-nav-item to="/about">About</b-nav-item>
+            <b-nav-item to="/" ><font-awesome-icon icon="user" /> Home</b-nav-item>
+            <b-nav-item to="/the_codes"><font-awesome-icon icon="laptop-code" /> Skills</b-nav-item>
+            <b-nav-item to="/about"><font-awesome-icon icon="address-card" /> About</b-nav-item>
               </b-navbar-nav>
 
             </b-collapse>
