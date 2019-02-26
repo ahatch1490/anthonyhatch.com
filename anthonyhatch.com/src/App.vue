@@ -9,7 +9,14 @@
             <b-nav-item to="/" ><font-awesome-icon icon="user" /> Home</b-nav-item>
             <b-nav-item to="/the_codes"><font-awesome-icon icon="laptop-code" /> Skills</b-nav-item>
             <b-nav-item to="/about"><font-awesome-icon icon="address-card" /> About</b-nav-item>
-              </b-navbar-nav>
+            <b-btn style="padding: 0;" v-b-modal.modal1  variant="link" ><font-awesome-icon icon="book" /> books</b-btn>
+            <div>
+              <!-- Modal Component -->
+              <b-modal id="modal1"  :hide-footer="true" >
+                <Books></Books>
+              </b-modal>
+            </div>
+            </b-navbar-nav>
 
             </b-collapse>
 
@@ -25,6 +32,14 @@
 
   </div>
 </template>
+
+<script lang="ts">
+
+  import Books from "@/components/Books.vue"; // @ is an alias to /src
+  export default {
+    components: {Books}
+  }
+</script>
 
 <style lang="scss">
 #app {

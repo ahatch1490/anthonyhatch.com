@@ -18,13 +18,7 @@
                 </div>
 
                 <div class="col">
-                    <b-btn style="padding: 0;" v-b-modal.modal1  variant="link" ><font-awesome-icon icon="book" size="3x" /></b-btn>
-                    <div>
-                        <!-- Modal Component -->
-                        <b-modal id="modal1" title="Reading">
-                            <Books></Books>
-                        </b-modal>
-                    </div>
+
                 </div>
             </div>
         </div>

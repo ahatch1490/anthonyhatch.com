@@ -3,7 +3,7 @@
            <div id="gr_grid_widget_1550119138">
                <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
                <h2>
-                   <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/1604160-anthony?shelf=programming&utm_medium=api&utm_source=grid_widget">Anthony's programming book montage</a>
+                   <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/1604160-anthony?shelf=programming&utm_medium=api&utm_source=grid_widget">books</a>
                </h2>
                <div class="gr_grid_container">
                    <div class="gr_grid_book_container"><a title="CLR via C# (Pro-Developer)" rel="nofollow" href="https://www.goodreads.com/book/show/7121415-clr-via-c"><img alt="CLR via C#" border="0" src="https://images.gr-assets.com/books/1388551187m/7121415.jpg" /></a></div>
@@ -29,15 +29,6 @@
                    <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Anthony, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
                </div>
 
-           </div>
-
-           <div class="card" >
-               <img src="https://images.gr-assets.com/books/1388551187m/7121415.jpg"  class="card-img-top" alt="CLR via C#">
-               <div class="card-body">
-                   <h5 class="card-title">CLR via C# (Pro-Developer)</h5>
-                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                   <a href="#" class="btn btn-primary">Go somewhere</a>
-               </div>
            </div>
 
        </div>
