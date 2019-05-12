@@ -10,7 +10,8 @@ import {library} from '@fortawesome/fontawesome-svg-core'
 import { faCoffee, faAddressCard, faBook, faBuilding, faLaptopCode,faUser} from '@fortawesome/free-solid-svg-icons'
 import { faGithub,faLinkedin,faStackOverflow,faVuejs,faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 
 library.add(faCoffee,faBook,faAddressCard,faGithub,faLinkedin,faStackOverflow,faVuejs,faTwitter,faBuilding,faLaptopCode,faUser);
@@ -18,8 +19,8 @@ library.add(faCoffee,faBook,faAddressCard,faGithub,faLinkedin,faStackOverflow,fa
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
 Vue.use(bootstrapVue);
-
-new Vue({
+Vue.use(VueAxios, axios);
+const app = new Vue({
   router,
   store,
   render: h => h(App)
