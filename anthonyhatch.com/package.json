@@ -1,6 +1,9 @@
 {
   "name": "anthonyhatch.com",
   "version": "0.1.0",
+  "engines": {
+    "node": "11.10.x"
+  },
   "private": true,
   "scripts": {
     "postinstall": "npm run build",
