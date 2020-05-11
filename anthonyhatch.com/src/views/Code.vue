@@ -117,7 +117,7 @@
                    ]
                 },
                 {
-                   title: "Data",
+                   title: "Data / Cloud",
                    images: [
                       {
                          title: 'ms-sql',
@@ -126,7 +126,21 @@
                       {
                          title: 'postgres',
                          url: "/data/postgressql.svg"
+                      },
+                      {
+                         title: 'heroku',
+                         url: "/data/heroku.svg"
+                      },
+                      {
+                         title: 'azure',
+                         url: "/data/azure.svg"
+                      },
+                      {
+                         title: 'azure functions',
+                         url: "/data/azurefunctions.svg"
                       }
+
+
                    ]
                 },
                 {

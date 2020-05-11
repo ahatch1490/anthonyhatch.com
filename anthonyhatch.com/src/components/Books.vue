@@ -28,7 +28,6 @@
                    <br style="clear: both"/><br/><a class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both" rel="nofollow" href="https://www.goodreads.com/user/show/1604160-anthony">Anthony's favorite books »</a>
                    <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Anthony, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
                </div>
-
            </div>
 
        </div>
