@@ -19,10 +19,23 @@
       <div class="col-12">
         <div class="card card_margin">
           <div class="card-header fa-pull-left" style="background-color: white;" >
+            <h3>Imperative</h3>
+          </div>
+          <div class="card-body">
+            <img class="img-fluid rounded max_logo_height" style="margin:10px; min-height: 80px;" alt="Anthony Hatch" src="../assets/experience/imperative_logo.png"> <h3>2022 - Present</h3>
+            <p>Sr. Software Engineer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card card_margin">
+          <div class="card-header fa-pull-left" style="background-color: white;" >
             <h3>QuoteWizard</h3>
           </div>
           <div class="card-body">
-            <img class="img-fluid rounded max_logo_height" style="margin:10px; min-height: 80px;" alt="Anthony Hatch" src="../assets/experience/qw-lt-color.svg"> <h3>2019 - Present</h3>
+            <img class="img-fluid rounded max_logo_height" style="margin:10px; min-height: 80px;" alt="Anthony Hatch" src="../assets/experience/qw-lt-color.svg"> <h3>2019 - 2022</h3>
             <p>Sr. Software Engineer</p>
           </div>
         </div>
