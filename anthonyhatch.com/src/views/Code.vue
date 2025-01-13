@@ -138,7 +138,12 @@
                       {
                          title: 'azure functions',
                          url: "/data/azurefunctions.svg"
-                      }
+                      },
+                     {
+                       title: 'terraform',
+                       url: "/data/HashiCorpTerraform.svg"
+                     },
+
 
 
                    ]
