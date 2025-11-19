@@ -9,7 +9,7 @@
           </div>
           <div class="card-body">
             <p>
-              15 plus years of finding solutions, and deleting code.
+              15 plus years of finding solutions and deleting code.
             </p>
           </div>
         </div>
@@ -23,7 +23,7 @@
           </div>
           <div class="card-body">
             <img class="img-fluid rounded max_logo_height" style="margin:10px; min-height: 80px;" alt="Denali AI" src="../assets/experience/denaliai_logo.svg"> <h3>2024 - Present</h3>
-            <p></p>
+            <p>Staff Software Engineer</p>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
           </div>
           <div class="card-body">
             <img class="img-fluid rounded max_logo_height" style="margin:10px; min-height: 80px;" alt="Anthony Hatch" src="../assets/experience/imperative_logo.png"> <h3>2022 - 2024</h3>
-            <p>Staff Software Engineer</p>
+            <p>Sr. Software Engineer</p>
           </div>
         </div>
       </div>
