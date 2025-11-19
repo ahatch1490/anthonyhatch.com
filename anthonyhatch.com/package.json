@@ -2,7 +2,7 @@
   "name": "anthonyhatch.com",
   "version": "0.1.0",
   "engines": {
-    "node": "21.x.x"
+    "node": "21.x"
   },
   "private": true,
   "scripts": {
