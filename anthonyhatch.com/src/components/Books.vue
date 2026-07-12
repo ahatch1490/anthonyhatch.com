@@ -33,9 +33,10 @@ const books: Book[] = [
     { title: 'Clean Code: A Handbook of Agile Software Craftsmanship', cover: 'https://images.gr-assets.com/books/1436202607m/3735293.jpg', url: 'https://www.goodreads.com/book/show/3735293-clean-code' },
     { title: 'Practical Object Oriented Design in Ruby', cover: 'https://images.gr-assets.com/books/1358916543m/13507787.jpg', url: 'https://www.goodreads.com/book/show/13507787-practical-object-oriented-design-in-ruby' },
     { title: 'The Pragmatic Programmer: From Journeyman to Master', cover: 'https://images.gr-assets.com/books/1401432508m/4099.jpg', url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer' },
+    { title: 'A Philosophy of Software Design', cover: 'https://images.gr-assets.com/books/1531857377m/39996759.jpg', url: 'https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design' },
+    { title: 'Rails Antipatterns: Best Practice Ruby on Rails Refactoring', cover: 'https://images.gr-assets.com/books/1400891776m/9765652.jpg', url: 'https://www.goodreads.com/book/show/9765652-rails-antipatterns' },
     { title: 'Professional ASP.Net MVC 1.0', cover: 'https://images.gr-assets.com/books/1348222555m/4760706.jpg', url: 'https://www.goodreads.com/book/show/4760706-professional-asp-net-mvc-1-0' },
     { title: 'ASP.NET 2.0 Website Programming: Problem - Design - Solution', cover: 'https://images.gr-assets.com/books/1436620104m/43764.jpg', url: 'https://www.goodreads.com/book/show/43764.ASP_NET_2_0_Website_Programming' },
-    { title: 'Rails Antipatterns: Best Practice Ruby on Rails Refactoring', cover: 'https://images.gr-assets.com/books/1400891776m/9765652.jpg', url: 'https://www.goodreads.com/book/show/9765652-rails-antipatterns' },
     { title: 'The Ruby Programming Language', cover: 'https://images.gr-assets.com/books/1328834776m/2485075.jpg', url: 'https://www.goodreads.com/book/show/2485075.The_Ruby_Programming_Language' },
     { title: 'The Clean Coder: A Code of Conduct for Professional Programmers', cover: 'https://images.gr-assets.com/books/1347470803m/10284614.jpg', url: 'https://www.goodreads.com/book/show/10284614-the-clean-coder' },
     { title: 'The Rails 3 Way', cover: 'https://images.gr-assets.com/books/1301061482m/8017554.jpg', url: 'https://www.goodreads.com/book/show/8017554-the-rails-3-way' },
@@ -46,7 +47,6 @@ const books: Book[] = [
     { title: 'Rails for .NET Developers', cover: 'https://images.gr-assets.com/books/1348474213m/4053977.jpg', url: 'https://www.goodreads.com/book/show/4053977-rails-for-net-developers' },
     { title: 'Developing an Angular 2 Edge', cover: 'https://images.gr-assets.com/books/1485242693m/33977164.jpg', url: 'https://www.goodreads.com/book/show/33977164-developing-an-angular-2-edge' },
     { title: 'The Way to Go: A Thorough Introduction to the Go Programming Language', cover: 'https://images.gr-assets.com/books/1441037980m/18844256.jpg', url: 'https://www.goodreads.com/book/show/18844256-the-way-to-go' },
-    { title: 'A Philosophy of Software Design', cover: 'https://images.gr-assets.com/books/1531857377m/39996759.jpg', url: 'https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design' },
 ]
 </script>
 
