@@ -19,10 +19,23 @@
       <div class="col-12">
         <div class="card card_margin">
           <div class="card-header fa-pull-left" style="background-color: white;" >
+            <h3>SpecMade</h3>
+          </div>
+          <div class="card-body">
+            <img class="img-fluid rounded max_logo_height" style="margin:10px; max-width: 220px;" alt="SpecMade" src="../assets/experience/specmade_logo.svg"> <h3>2026 - Present</h3>
+            <p>Staff Software Engineer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card card_margin">
+          <div class="card-header fa-pull-left" style="background-color: white;" >
             <h3>Denali Advanced Integrations</h3>
           </div>
           <div class="card-body">
-            <img class="img-fluid rounded max_logo_height" style="margin:10px; min-height: 80px;" alt="Denali AI" src="../assets/experience/denaliai_logo.svg"> <h3>2024 - Present</h3>
+            <img class="img-fluid rounded max_logo_height" style="margin:10px; min-height: 80px;" alt="Denali AI" src="../assets/experience/denaliai_logo.svg"> <h3>2024 - 2026</h3>
             <p>Staff Software Engineer</p>
           </div>
         </div>
