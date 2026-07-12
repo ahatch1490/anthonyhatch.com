@@ -47,6 +47,7 @@ const books: Book[] = [
     { title: 'Rails for .NET Developers', cover: 'https://images.gr-assets.com/books/1348474213m/4053977.jpg', url: 'https://www.goodreads.com/book/show/4053977-rails-for-net-developers' },
     { title: 'Developing an Angular 2 Edge', cover: 'https://images.gr-assets.com/books/1485242693m/33977164.jpg', url: 'https://www.goodreads.com/book/show/33977164-developing-an-angular-2-edge' },
     { title: 'The Way to Go: A Thorough Introduction to the Go Programming Language', cover: 'https://images.gr-assets.com/books/1441037980m/18844256.jpg', url: 'https://www.goodreads.com/book/show/18844256-the-way-to-go' },
+    { title: 'Rework', cover: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1391275636i/6732019.jpg', url: 'https://www.goodreads.com/book/show/6732019-rework' },
 ]
 </script>
 
