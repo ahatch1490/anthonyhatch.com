@@ -117,9 +117,6 @@ h3 {
 }
 
 </style>
-<script>
-  import Footer from "../components/Footer";
-  export default {
-    components: {Footer}
-  }
+<script setup lang="ts">
+import Footer from '@/components/Footer.vue'
 </script>

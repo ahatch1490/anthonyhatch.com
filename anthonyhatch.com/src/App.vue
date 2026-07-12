@@ -1,44 +1,59 @@
 <template>
   <div id="app">
     <div class="container">
-      <b-navbar  toggleable="lg" type="light" variant="light" :sticky="true" >
-        <b-navbar-toggle target="nav_text_collapse" />
+      <!-- TODO(stage 2): restore bootstrap-vue-next navbar collapse + Books modal -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav_text_collapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="nav_text_collapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <router-link class="nav-link" to="/"><font-awesome-icon icon="user" /> Home</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/the_codes"><font-awesome-icon icon="laptop-code" /> Skills</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/about"><font-awesome-icon icon="address-card" /> About</router-link>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-link nav-link" @click="showBooks = !showBooks">
+                  <font-awesome-icon icon="book" /> books
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-          <b-collapse is-nav id="nav_text_collapse">
-            <b-navbar-nav>
-            <b-nav-item to="/" ><font-awesome-icon icon="user" /> Home</b-nav-item>
-            <b-nav-item to="/the_codes"><font-awesome-icon icon="laptop-code" /> Skills</b-nav-item>
-            <b-nav-item to="/about"><font-awesome-icon icon="address-card" /> About</b-nav-item>
-            <b-btn style="padding: 0;" v-b-modal.modal1  variant="link" ><font-awesome-icon icon="book" /> books</b-btn>
-            <div>
-              <!-- Modal Component -->
-              <b-modal id="modal1"  :hide-footer="true" >
-                <Books></Books>
-              </b-modal>
-            </div>
-            </b-navbar-nav>
+      <!-- Temporary inline books panel until modal is restored in stage 2 -->
+      <div v-if="showBooks" class="container my-3">
+        <Books />
+      </div>
 
-            </b-collapse>
-
-      </b-navbar>
       <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <router-view/>
+        <div class="row">
+          <div class="col-sm">
+            <router-view />
+          </div>
         </div>
       </div>
     </div>
-    </div>
-
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+import { ref } from 'vue'
+import Books from '@/components/Books.vue'
 
-  import Books from "@/components/Books.vue"; // @ is an alias to /src
-  export default {
-    components: {Books}
-  }
+const showBooks = ref(false)
 </script>
 
 <style lang="scss">
@@ -59,5 +74,4 @@
     }
   }
 }
-
 </style>
