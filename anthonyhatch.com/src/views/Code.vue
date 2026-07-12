@@ -14,18 +14,12 @@
    </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
    import Footer from "@/components/Footer.vue"
    import Skills from "@/components/Skills.vue"; // @ is an alias to /src
-   import { Component, Vue } from 'vue-property-decorator';
-    @Component({
-       components: {
-          Footer,
-          Skills
-       },
-       data: () => {
-          return {
-             skillGroups: [
+   import type { SkillGroup } from '@/models/SkillGroup'
+
+   const skillGroups: SkillGroup[] = [
                 {
                    title: "Languages",
                    images: [
@@ -201,12 +195,6 @@
                 },
 
              ]
-          }
-
-       }
-
-    })
-    export default class Code extends Vue {}
 </script>
 
 <style scoped>

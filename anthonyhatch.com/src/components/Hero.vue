@@ -27,13 +27,7 @@
 
 </template>
 
-<script lang="ts">
-
-    import Books from "@/components/Books.vue"; // @ is an alias to /src
-    export default {
-        name: "Hero",
-        components: {Books}
-    }
+<script setup lang="ts">
 </script>
 
 <style scoped>
