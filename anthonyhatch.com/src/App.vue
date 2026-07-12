@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
-      <!-- TODO(stage 2): restore bootstrap-vue-next navbar collapse + Books modal -->
+      <!-- TODO(stage 2): restore bootstrap-vue-next navbar collapse -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
           <button
@@ -24,19 +24,12 @@
                 <router-link class="nav-link" to="/about"><font-awesome-icon icon="address-card" /> About</router-link>
               </li>
               <li class="nav-item">
-                <button class="btn btn-link nav-link" @click="showBooks = !showBooks">
-                  <font-awesome-icon icon="book" /> books
-                </button>
+                <router-link class="nav-link" to="/books"><font-awesome-icon icon="book" /> Books</router-link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
-      <!-- Temporary inline books panel until modal is restored in stage 2 -->
-      <div v-if="showBooks" class="container my-3">
-        <Books />
-      </div>
 
       <div class="container">
         <div class="row">
@@ -50,10 +43,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-import Books from '@/components/Books.vue'
-
-const showBooks = ref(false)
 </script>
 
 <style lang="scss">
