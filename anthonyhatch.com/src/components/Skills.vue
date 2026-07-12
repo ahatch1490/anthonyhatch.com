@@ -7,7 +7,7 @@
 
             <div class="row">
                 <div class="col-2" v-for="img in skill.images" :key="img.title">
-                    <img class="max_logo_height img-fluid" :src="img.url" :alt="img.title" :title="img.title"/>
+                    <img class="max_logo_height img-fluid" :src="img.url" :alt="img.title" v-b-tooltip.hover :title="img.title"/>
                 </div>
             </div>
         </div>
@@ -15,6 +15,7 @@
 </template>
 
 <script setup lang="ts">
+import { vBTooltip } from 'bootstrap-vue-next'
 import type { SkillGroup } from '@/models/SkillGroup'
 
 defineProps<{ skill: SkillGroup }>()
