@@ -29,6 +29,7 @@ const books: Book[] = [
     { title: 'Modern Software Engineering: Doing What Works to Build Better Software Faster', cover: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1635823845i/59517038.jpg', url: 'https://www.goodreads.com/book/show/59517038-modern-software-engineering' },
     { title: 'CLR via C# (Pro-Developer)', cover: 'https://images.gr-assets.com/books/1388551187m/7121415.jpg', url: 'https://www.goodreads.com/book/show/7121415-clr-via-c' },
     { title: 'The Effective Engineer: How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact', cover: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1427583285i/25238425.jpg', url: 'https://www.goodreads.com/book/show/25238425-the-effective-engineer' },
+    { title: "The Imposter's Handbook (The Imposter's Handbook, #1)", cover: 'https://images.gr-assets.com/books/1546356393m/31572054.jpg', url: 'https://www.goodreads.com/book/show/31572054-the-imposter-s-handbook' },
     { title: 'Professional ASP.Net MVC 1.0', cover: 'https://images.gr-assets.com/books/1348222555m/4760706.jpg', url: 'https://www.goodreads.com/book/show/4760706-professional-asp-net-mvc-1-0' },
     { title: 'ASP.NET 2.0 Website Programming: Problem - Design - Solution', cover: 'https://images.gr-assets.com/books/1436620104m/43764.jpg', url: 'https://www.goodreads.com/book/show/43764.ASP_NET_2_0_Website_Programming' },
     { title: 'Rails Antipatterns: Best Practice Ruby on Rails Refactoring', cover: 'https://images.gr-assets.com/books/1400891776m/9765652.jpg', url: 'https://www.goodreads.com/book/show/9765652-rails-antipatterns' },
@@ -46,7 +47,6 @@ const books: Book[] = [
     { title: 'The Way to Go: A Thorough Introduction to the Go Programming Language', cover: 'https://images.gr-assets.com/books/1441037980m/18844256.jpg', url: 'https://www.goodreads.com/book/show/18844256-the-way-to-go' },
     { title: 'The Pragmatic Programmer: From Journeyman to Master', cover: 'https://images.gr-assets.com/books/1401432508m/4099.jpg', url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer' },
     { title: 'A Philosophy of Software Design', cover: 'https://images.gr-assets.com/books/1531857377m/39996759.jpg', url: 'https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design' },
-    { title: "The Imposter's Handbook (The Imposter's Handbook, #1)", cover: 'https://images.gr-assets.com/books/1546356393m/31572054.jpg', url: 'https://www.goodreads.com/book/show/31572054-the-imposter-s-handbook' },
 ]
 </script>
 
