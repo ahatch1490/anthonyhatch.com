@@ -1,8 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import { createBootstrap } from 'bootstrap-vue-next'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 import './assets/css/main.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee, faAddressCard, faBook, faBuilding, faLaptopCode, faUser } from '@fortawesome/free-solid-svg-icons'
@@ -14,4 +15,5 @@ library.add(faCoffee, faBook, faAddressCard, faGithub, faLinkedin, faStackOverfl
 const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(router)
+app.use(createBootstrap())
 app.mount('#app')

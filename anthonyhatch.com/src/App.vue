@@ -1,42 +1,22 @@
 <template>
   <div id="app">
     <div class="container">
-      <!-- TODO(stage 2): restore bootstrap-vue-next navbar collapse + Books modal -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#nav_text_collapse"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="nav_text_collapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <router-link class="nav-link" to="/"><font-awesome-icon icon="user" /> Home</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/the_codes"><font-awesome-icon icon="laptop-code" /> Skills</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/about"><font-awesome-icon icon="address-card" /> About</router-link>
-              </li>
-              <li class="nav-item">
-                <button class="btn btn-link nav-link" @click="showBooks = !showBooks">
-                  <font-awesome-icon icon="book" /> books
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Temporary inline books panel until modal is restored in stage 2 -->
-      <div v-if="showBooks" class="container my-3">
-        <Books />
-      </div>
+      <BNavbar toggleable="lg" type="light" variant="light" sticky="top">
+        <BNavbarToggle target="nav_text_collapse" />
+        <BCollapse id="nav_text_collapse" is-nav>
+          <BNavbarNav>
+            <BNavItem to="/"><font-awesome-icon icon="user" /> Home</BNavItem>
+            <BNavItem to="/the_codes"><font-awesome-icon icon="laptop-code" /> Skills</BNavItem>
+            <BNavItem to="/about"><font-awesome-icon icon="address-card" /> About</BNavItem>
+            <BButton style="padding: 0;" variant="link" @click="showBooks = true">
+              <font-awesome-icon icon="book" /> books
+            </BButton>
+            <BModal v-model="showBooks" title="books" no-footer>
+              <Books />
+            </BModal>
+          </BNavbarNav>
+        </BCollapse>
+      </BNavbar>
 
       <div class="container">
         <div class="row">
@@ -51,6 +31,15 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import {
+  BNavbar,
+  BNavbarToggle,
+  BNavbarNav,
+  BNavItem,
+  BCollapse,
+  BButton,
+  BModal,
+} from 'bootstrap-vue-next'
 import Books from '@/components/Books.vue'
 
 const showBooks = ref(false)
