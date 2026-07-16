@@ -190,6 +190,10 @@
                       {
                          title: 'open mono agent',
                          url: "/llm/openmonoagent.svg"
+                      },
+                      {
+                         title: 'pi',
+                         url: "/llm/pi.svg"
                       }
                    ]
                 },
