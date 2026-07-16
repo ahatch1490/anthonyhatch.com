@@ -122,8 +122,8 @@
                          url: "/data/postgressql.svg"
                       },
                       {
-                         title: 'heroku',
-                         url: "/data/heroku.svg"
+                         title: 'google cloud',
+                         url: "/data/googlecloud.svg"
                       },
                       {
                          title: 'azure',
@@ -143,7 +143,7 @@
                    ]
                 },
                 {
-                   title: "Tools",
+                   title: "IDE's",
                    images: [
                       {
                          title: 'visual studio',
@@ -170,6 +170,31 @@
                          url: "/tools/webstorm.svg"
                       }
 
+                   ]
+                },
+                {
+                   title: "LLM",
+                   images: [
+                      {
+                         title: 'claude',
+                         url: "/llm/claude.svg"
+                      },
+                      {
+                         title: 'ollama',
+                         url: "/llm/ollama.svg"
+                      },
+                      {
+                         title: 'cmux',
+                         url: "/llm/cmux.png"
+                      },
+                      {
+                         title: 'open mono agent',
+                         url: "/llm/openmonoagent.svg"
+                      },
+                      {
+                         title: 'pi',
+                         url: "/llm/pi.svg"
+                      }
                    ]
                 },
                 {
