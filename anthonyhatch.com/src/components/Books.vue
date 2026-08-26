@@ -25,6 +25,7 @@
 import type Book from '@/models/Book'
 
 const books: Book[] = [
+    { title: "The Reverse Centaur's Guide to Life After AI", cover: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1772829981i/245645195.jpg', url: 'https://www.goodreads.com/book/show/245645195-the-reverse-centaur-s-guide-to-life-after-ai' },
     { title: 'Enshittification: Why Everything Suddenly Got Worse and What to Do About It', cover: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1745430964i/222376640.jpg', url: 'https://www.goodreads.com/book/show/222376640-enshittification' },
     { title: 'Modern Software Engineering: Doing What Works to Build Better Software Faster', cover: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1635823845i/59517038.jpg', url: 'https://www.goodreads.com/book/show/59517038-modern-software-engineering' },
     { title: 'CLR via C# (Pro-Developer)', cover: 'https://images.gr-assets.com/books/1388551187m/7121415.jpg', url: 'https://www.goodreads.com/book/show/7121415-clr-via-c' },
